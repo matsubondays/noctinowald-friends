@@ -43,3 +43,29 @@ box-shadow: 0 6px 16px rgba(0,0,0,.35); transition: transform .2s ease, box-shad
 .gallery img.owl { width: 80px; height: 80px; }
 .portal { width: 68px; height: 68px; }
 }
+/* —— モバイルの調整 —— */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 20px;
+    z-index: 5;
+  }
+
+  .portal {
+    top: 10px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .owl-grid {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .owl-card {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
