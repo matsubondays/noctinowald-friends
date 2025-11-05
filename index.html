@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Noctinowald – 森に帰るフクロウ</title>
+  <link rel="preconnect" href="https://code.jquery.com">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="hero">
+    <h1 class="title">Noctinowald – 森に帰るフクロウ</h1>
+
+    <!-- 着地点（ポータル） -->
+    <div class="portal" aria-label="森へのポータル"></div>
+
+    <!-- 画像ギャラリー（クリックで飛ぶ） -->
+    <div class="gallery" aria-live="polite">
+      <img class="owl" src="img/owl-1.jpg" alt="松ぼっくりフクロウ 1" />
+      <img class="owl" src="img/owl-2.jpg" alt="松ぼっくりフクロウ 2" />
+      <img class="owl" src="img/owl-3.jpg" alt="松ぼっくりフクロウ 3" />
+      <!-- ここに増やしてOK → <img class="owl" src="img/your-file.jpg" alt="説明" /> -->
+    </div>
+
+    <p class="hint">画像をクリック → ポータルへビューン</p>
+  </section>
+
+  <!-- jQuery（CDN） -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <!-- 振る舞い -->
+  <script src="script.js"></script>
+</body>
+</html>
